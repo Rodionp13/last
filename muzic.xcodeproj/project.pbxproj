@@ -257,9 +257,9 @@
 		CEF16D9A2011546400E15549 /* muzic */ = {
 			isa = PBXGroup;
 			children = (
-				CEF16D9B2011546400E15549 /* AppDelegate.swift */,
 				CEE10CF2203CDFC9002D48FC /* AVEffects */,
 				CEE5D7B1201CBE9900A7DD93 /* PlayerViewController.swift */,
+				CEF16D9B2011546400E15549 /* AppDelegate.swift */,
 				CEF16DC9201154B000E15549 /* TableViewController.swift */,
 				CEF16DCB2011551800E15549 /* TableViewCell.swift */,
 				CEDAC9812027242D00D86E7D /* TrackManager.swift */,
