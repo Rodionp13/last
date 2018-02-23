@@ -29,20 +29,20 @@ class TableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        self.backgroundColor = UIColor.init(red: 0.6, green: 0.2, blue: 0.3, alpha: 0.9)
+        self.backgroundColor = .white
         // Configure the view for the selected state
     }
     
     
     @IBAction func play(_ sender: Any) {
         delegate.play(track: self.track)
-        self.backgroundColor = .white
+        self.backgroundColor = .lightGray
     }
     
     
     @IBAction func pause(_ sender: Any) {
         delegate.pause(track: self.track)
-        self.backgroundColor = UIColor.init(red: 0.6, green: 0.2, blue: 0.3, alpha: 0.9)
+        self.backgroundColor = .white
     }
 
 }

@@ -18,7 +18,6 @@ class TableViewController: UITableViewController, TableViewCellDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.backgroundColor = UIColor.init(red: 0.3, green: 0, blue: 0.1, alpha: 0.8)
     }
 
     override func didReceiveMemoryWarning() {
