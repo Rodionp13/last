@@ -1,0 +1,6 @@
+framework module Pods_muzicUITests {
+  umbrella header "Pods-muzicUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
